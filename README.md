@@ -1,11 +1,17 @@
 # atelier-node-1
 Téléphone arabe avec les streams Node.js
 
-Atelier réalisé avec [![Silex Labs](https://www.silexlabs.org/wp-content/uploads/2015/10/silexlabs.org_.2015.png)](https://www.silexlabs.org/event/atelier-node-js-ring/) et l'école Simplon.
+Atelier réalisé avec
+
+[![Silex Labs](https://www.silexlabs.org/wp-content/uploads/2015/10/silexlabs.org_.2015.png)](https://www.silexlabs.org/event/atelier-node-js-ring/)
+
+[![Simplon](http://1b663dd7bf.url-de-test.ws/wp-content/uploads/2014/11/logo_simplonco.png)](http://simplon.co/)
 
 # But de l'atelier
 
 Lors de cet atelier, chaque participant créera un maillon (serveur HTTP) qui recevra des données d'un maillon précédent et les renverra modifiées (ou non) au maillon suivant.
+
+Il fait suite à un précédent [atelier](https://www.silexlabs.org/event/atelier-node-js-pipes-string/) Silex Labs. Si vous n'y étiez pas, retrouvez la vidéo sur [YouTube](https://youtu.be/vbTJNZegLJQ) !
 
 # Installation
 
