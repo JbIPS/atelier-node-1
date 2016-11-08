@@ -12,7 +12,7 @@ console.log(`Le serveur est prêt et écoute sur le port ${PORT}`);
 // Fonction a exécuter à chaque requête reçue
 server.on('request', (req, res) => {
   if(req.method == 'POST') {
-    req.pipe(res);
+    req.pipe(new RequestTransformer()).pipe(res);
   } else {
     res.end('Je ne sais rien faire en GET, mais envoyez moi plutôt des données en POST :)');
   }
